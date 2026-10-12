@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
-	secrets "github.com/goliatone/ctx/pkg/go-secrets"
-	environmentprovider "github.com/goliatone/ctx/pkg/go-secrets/providers/environment"
-	fileprovider "github.com/goliatone/ctx/pkg/go-secrets/providers/file"
-	"github.com/goliatone/ctx/pkg/go-secrets/providers/internal/subprocess"
-	keychainprovider "github.com/goliatone/ctx/pkg/go-secrets/providers/keychain"
-	onepasswordprovider "github.com/goliatone/ctx/pkg/go-secrets/providers/onepassword"
-	"github.com/goliatone/ctx/pkg/go-secrets/testkit"
+	secrets "github.com/goliatone/go-secrets"
+	environmentprovider "github.com/goliatone/go-secrets/providers/environment"
+	fileprovider "github.com/goliatone/go-secrets/providers/file"
+	"github.com/goliatone/go-secrets/providers/internal/subprocess"
+	keychainprovider "github.com/goliatone/go-secrets/providers/keychain"
+	onepasswordprovider "github.com/goliatone/go-secrets/providers/onepassword"
+	"github.com/goliatone/go-secrets/testkit"
 )
 
 func TestMultiProviderOrderedFallback(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"os"
 	"regexp"
 
-	secrets "github.com/goliatone/ctx/pkg/go-secrets"
+	secrets "github.com/goliatone/go-secrets"
 )
 
 var namePattern = regexp.MustCompile(`^[A-Za-z_][A-Za-z0-9_]*$`)

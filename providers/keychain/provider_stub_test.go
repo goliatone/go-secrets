@@ -6,7 +6,7 @@ import (
 	"context"
 	"testing"
 
-	secrets "github.com/goliatone/ctx/pkg/go-secrets"
+	secrets "github.com/goliatone/go-secrets"
 )
 
 func TestUnsupportedPlatform(t *testing.T) {

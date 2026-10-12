@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	secrets "github.com/goliatone/ctx/pkg/go-secrets"
+	secrets "github.com/goliatone/go-secrets"
 )
 
 type Repository struct {

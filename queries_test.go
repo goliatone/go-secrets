@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	secrets "github.com/goliatone/ctx/pkg/go-secrets"
-	"github.com/goliatone/ctx/pkg/go-secrets/testkit"
+	secrets "github.com/goliatone/go-secrets"
+	"github.com/goliatone/go-secrets/testkit"
 )
 
 func TestQueryContractsReturnRedactedViews(t *testing.T) {

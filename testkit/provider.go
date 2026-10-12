@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	secrets "github.com/goliatone/ctx/pkg/go-secrets"
+	secrets "github.com/goliatone/go-secrets"
 )
 
 // Provider is a concurrency-safe deterministic provider fake. Configuration

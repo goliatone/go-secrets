@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	secrets "github.com/goliatone/ctx/pkg/go-secrets"
-	"github.com/goliatone/ctx/pkg/go-secrets/providers/internal/subprocess"
-	"github.com/goliatone/ctx/pkg/go-secrets/testkit"
+	secrets "github.com/goliatone/go-secrets"
+	"github.com/goliatone/go-secrets/providers/internal/subprocess"
+	"github.com/goliatone/go-secrets/testkit"
 )
 
 func serviceAccountConfig(runner subprocess.Runner) Config {

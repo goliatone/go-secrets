@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	secrets "github.com/goliatone/ctx/pkg/go-secrets"
-	"github.com/goliatone/ctx/pkg/go-secrets/testkit"
+	secrets "github.com/goliatone/go-secrets"
+	"github.com/goliatone/go-secrets/testkit"
 )
 
 func TestProviderConformance(t *testing.T) {

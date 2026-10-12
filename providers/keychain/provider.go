@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	secrets "github.com/goliatone/ctx/pkg/go-secrets"
-	"github.com/goliatone/ctx/pkg/go-secrets/providers/internal/subprocess"
+	secrets "github.com/goliatone/go-secrets"
+	"github.com/goliatone/go-secrets/providers/internal/subprocess"
 )
 
 type Config struct {

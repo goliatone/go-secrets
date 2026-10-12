@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	secrets "github.com/goliatone/ctx/pkg/go-secrets"
+	secrets "github.com/goliatone/go-secrets"
 )
 
 type Config struct {
